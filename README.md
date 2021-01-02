@@ -1,19 +1,19 @@
-# :dog: Veterinaria Pet Shop Franco :cat:
+#: dog: Veterinary Pet Shop Franco: cat:
 
-La web es para una veterinaria la cual se ha pedido que elaboremos una pagina en donde nos muestre 4 secciones que se van a detallar a continuación:
+_The website is for a veterinarian who has been asked to develop a page where she shows us 4 sections that will be detailed below:_
 
-##  :hamster: 1er SECCIÓN ¿Quienes somos? :hamster:
+##: hamster: 1st SECTION Who are we? :hamster:
 
 ![image](https://user-images.githubusercontent.com/62455807/89750402-39f2ec00-daa2-11ea-9e62-6584fda4ac32.png)
 ![image](https://user-images.githubusercontent.com/62455807/89750530-ca313100-daa2-11ea-9e03-fa56fc68f3e7.png)
 ![image](https://user-images.githubusercontent.com/62455807/89750558-ed5be080-daa2-11ea-93b0-367a4100e6e6.png)
-## DESCRIPCCIÓN: Esta sección es en la que presentamos a la veterinaria cual es su objetivo, su misión, y a que apuntan a futuro, también tenemos , links en dos imágenes en las que nos van a dar direccionamiento a la tienda virtual, en la parte del footer vamos a incluir los datos de las redes ubicación mapas y informacion necesaria para poder ubicar el local.
+_DESCRIPTION: This section is where we present the veterinarian what its objective is, its mission, since they point to the future, we also have links in two images in which they will give us directions to the virtual store, in the part of the footer we are going to include the data of the networks, location maps and information necessary to be able to locate the premises._
 
 
 
-##  :email: 2do SECCIÓN (Formulario) :email:
+## : email: 2nd SECTION (Form): email:
 ![image](https://user-images.githubusercontent.com/62455807/89750864-22b4fe00-daa4-11ea-9802-d3d7614e7391.png)
-## DESCRIPCCIÓN: En esta sección tenemos el formulario de contacto en donde el usuario nos mandara su información personal y la de su mascota, una vez enviado el e-mail se le mandara un mensaje de confirmación en donde se le comunicara que la información ha sido envidada correctamente.
+_DESCRIPTION: In this section we have the contact form where the user will send us their personal information and that of their pet, once the e-mail is sent, a confirmation message will be sent where they will be informed that the information has been successfully submitted._
 
 
 ## :pill: 3er SECCIÓN Tienda virtual (Farmacia):syringe:
@@ -22,16 +22,17 @@ La web es para una veterinaria la cual se ha pedido que elaboremos una pagina en
 ![image](https://user-images.githubusercontent.com/62455807/89750976-a7078100-daa4-11ea-96bd-f2a15ad1b1f7.png)
 ![image](https://user-images.githubusercontent.com/62455807/89751039-e33ae180-daa4-11ea-8f3a-83a2ad599789.png)
 
-## DESCRIPCCIÓN: En esta sección tenemos la tienda virtual en donde tenemos distintos productos que que vienen  de un API externa. 
-## Al comienzo de la pagina tenemos imágenes de los productos en una animación que se muestran y rotan.  Después tenemos los productos en grillas en donde se muestra su: 
-- Imagen 
-- Precio 
-- Nombre 
-- Descripción 
-- Cantidad de stock 
+## DESCRIPTION: In this section we have the virtual store where we have different products that come from an external API.
+## At the beginning of the page we have images of the products in an animation that are shown and rotated. Then we have the products in grids where their:
 
-## Si los productos tienen menos de 5 de stock, se aparece un cartel rojo mencionando y alertando "¡Ultimas unidades!"  
-## Tenemos el boton "Agregar al Carrito" el cual si lo presionamos no nos lleva a ningún lado ya que la parte del eccomerce no era parte del objetivo
+- Image
+- Price
+- Name
+- Description
+- Stock quantity
+
+## If the products have less than 5 in stock, a red sign appears mentioning and alerting "Last units!".
+## We have the button "Add to Cart" which if we press it, it does not take us anywhere since the part of the ecommerce was not part of the objective.
 
 
 
@@ -41,21 +42,22 @@ La web es para una veterinaria la cual se ha pedido que elaboremos una pagina en
 ![image](https://user-images.githubusercontent.com/62455807/89751481-a374f980-daa6-11ea-925b-1749735db88b.png)
 ![image](https://user-images.githubusercontent.com/62455807/89751486-aa037100-daa6-11ea-897d-489b136422e0.png)
 
-## DESCRIPCCIÓN: En esta sección tenemos la tienda virtual en donde tenemos distintos productos que que vienen  de un API externa. 
-## Al comienzo de la pagina tenemos imágenes de los productos en una animación que se muestran y rotan.  Después tenemos los productos en grillas en donde se muestra su: 
-- Imagen 
-- Precio 
-- Nombre 
-- Descripción 
-- Cantidad de stock 
+## DESCRIPTION: In this section we have the virtual store where we have different products that come from an external API.
+## At the beginning of the page we have images of the products in an animation that are shown and rotated. Then we have the products in grids where their:
+- Image
+- Price
+- Name
+- Description
+- Stock quantity
 
-## Si los productos tienen menos de 5 de stock, se aparece un cartel rojo mencionando y alertando "¡Ultimas unidades!"  
-## Tenemos el boton "Agregar al Carrito" el cual si lo presionamos no nos lleva a ningún lado ya que la parte del eccomerce no era parte del objetivo
+_If the products have less than 5 in stock, a red sign appears mentioning and alerting "Last units!"_
+_We have the button "Add to Cart" which if we press it, it does not take us anywhere since the part of the ecommerce was not part of the objective._
 
 
-## :computer: Detalles del codigo :computer:
-###### Conexión a la API (Con AJAX)
-```ruby
+##: computer: Code details: computer:
+_API connection (With AJAX)_
+```
+ruby
 
 $(document).ready(
     $.ajax({
@@ -74,25 +76,25 @@ $(document).ready(
 ```
 
 
-## :page_with_curl: Requisitos :page_with_curl:
+##: page_with_curl: Requirements: page_with_curl:
 
-Navegadores necesarios para correr la web:
-- Mozilla Firefox 
-- Google Chrome 
-- Opera 
+_Browsers needed to run the web: _
+- Mozilla Firefox
+- Google Chrome
+- Opera
 - Microsoft Edge
 
-## 🛠️ Herramientas usadas 🛠️
+## 🛠️ Tools used 🛠️
 
-* [Boostrap](https://getbootstrap.com/) - ``Framework Front-End``
-* [API Herokuapp] - (https://apipetshop.herokuapp.com/api/articulos) - ``API (Tomamos la información de aqui)``
-## ✒️ Autor ✒️
+* [Boostrap] (https://getbootstrap.com/) - `` Front-End Framework ''
+* [API Herokuapp] - (https://apipetshop.herokuapp.com/api/articulos) - `` API (We take the information from here) ''
+## ✒️ Author ✒️
 
-* **Martin Cumpe** - [tincho3604](https://github.com/Tincho3604)
+* ** Martin Cumpe ** - [tincho3604] (https://github.com/Tincho3604)
 
-## 🎁 ¡Agradecimientos !🎁
+## 🎁 Thanks! 🎁
 
-* Este proyecto fue desarrollado en el bootcamp de Mindhub, como parte del desarrollo en el modulo (Desarrollo web Javascript) 📢
+* This project was developed in the Mindhub bootcamp, as part of the development in the module (Javascript Web Development) 📢
 
 
 
